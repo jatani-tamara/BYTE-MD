@@ -44,7 +44,7 @@ global.scan = "https://byte-session.vercel.app/";
 
 
 global.SESSION_ID =
-  process.env.SESSION_ID ||
+  process.env.SESSION_ID || ""
 
 
 
